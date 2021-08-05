@@ -1,6 +1,6 @@
 pragma solidity ^0.4.17; //version of solidity
 
-contract Inbox { //contract definition
+contract Inbox { //contract definition start of contract
     string public message; //instance variable - type access name
     /* this variable is automatically stored with the contract on the blockchain (storage variable)
     public storage variable has a seperate function that allows to access the message
